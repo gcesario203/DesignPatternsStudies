@@ -1,6 +1,6 @@
-using Implementation.Models.Interface;
+using Implementation.Interface;
 
-namespace Implementation.Models
+namespace Implementation
 {
     public class Dish : IMealDish
     {

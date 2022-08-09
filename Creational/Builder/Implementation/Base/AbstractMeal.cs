@@ -1,6 +1,6 @@
-using Implementation.Models.Interface;
+using Implementation.Interface;
 
-namespace Implementation.Models.Base
+namespace Implementation.Base
 {
     public abstract class AbstractMeal : IMealComposite
     {

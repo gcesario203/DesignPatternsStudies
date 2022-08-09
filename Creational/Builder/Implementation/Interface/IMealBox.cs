@@ -1,4 +1,4 @@
-namespace Implementation.Models.Interface
+namespace Implementation.Interface
 {
     public interface IMealBox : IMealComposite
     {

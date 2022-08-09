@@ -1,6 +1,6 @@
-using Implementation.Models.Base;
+using Implementation.Base;
 
-namespace Implementation.Models
+namespace Implementation
 {
     public class Beverage : AbstractMeal
     {
