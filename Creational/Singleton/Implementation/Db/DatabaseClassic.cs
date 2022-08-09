@@ -24,7 +24,7 @@ namespace Implementation.Db
         }
         private DatabaseClassic()
         {
-            Id = new Guid();
+            Id = Guid.NewGuid();
             Users = UserSeeder.BuildFakeUsers();
         }
 
