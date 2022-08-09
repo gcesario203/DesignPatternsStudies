@@ -1,11 +1,11 @@
 namespace Implementation.Interface
 {
-    public interface IMealDish
+    public interface IMealDish<TDish>
     {
-        void BuildMeal(params IMealComposite[] components);
+         TDish BuildMeal(this TDish context, params IMealComposite[] components);
 
-        void BuildBeverage(params IMealComposite[] components);
+         TDish BuildBeverage(this TDish context, params IMealComposite[] components);
 
-        void BuildDessert(params IMealComposite[] components);
+         TDish BuildDessert(this TDish context, params IMealComposite[] components);
     }
 }
