@@ -10,6 +10,8 @@ namespace Implementation.Classes
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
+        public List<Address> Addresses { get; set; } = new List<Address>();
+
         public Person() { }
         public Person(SerializationInfo info, StreamingContext context) : base(info, context)
         {
