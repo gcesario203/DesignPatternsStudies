@@ -1,1 +1,0 @@
-Biblíoteca de classes com implementações de utilitarios e extensões em geral
