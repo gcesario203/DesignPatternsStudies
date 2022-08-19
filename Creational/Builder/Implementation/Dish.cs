@@ -20,7 +20,7 @@ namespace Implementation
             Meal.Add(components.ToArray());
         }
 
-        private void Reset()
+        public void Reset()
         {
             Meal = new MealBox();
         }
