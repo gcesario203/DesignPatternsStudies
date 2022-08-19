@@ -1,4 +1,3 @@
-using Implementation.SystemUser.DataObjects;
 using Implementation.SystemUser.Interface;
 
 namespace Implementation.SystemUser
@@ -15,7 +14,7 @@ namespace Implementation.SystemUser
         public SystemUserProxy(string firstName, string lastName)
         {
             FirstName = firstName;
-            LastName =lastName;
+            LastName = lastName;
         }
 
         public IEnumerable<IAddress> GetAddresses()
